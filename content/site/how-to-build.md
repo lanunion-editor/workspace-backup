@@ -10,9 +10,11 @@ weight = 5
 - 静态站点和动态站点（静态页面与动态页面）</br>
 - 本地生成及部署＆远程生成写作及部署</br>
 - 域名、CDN、SSL</br>
+
 {{% notice note %}}
 小编我不是全部都懂，或者应该说是只懂一部分。但是没关系，一起学嘛！
 {{% /notice %}}
+
 ### 静态页面与动态页面
 一句话：</br>
 
@@ -32,3 +34,16 @@ weight = 5
   - JavaScript作为脚本语言有很差的可读性。
 
 但是由于本人没接触过WordPress这种工具，因此以静态页面为主要介绍对象。
+
+### 推荐的工具
+说了那么多，其实就一句话：我极力推荐使用静态页面服务。那么如何选择适合自己的呢？这里将介绍几个比较常见的静态页面生成工具。</br>
+#### HEXO
+为方便书写接下来一律写作“hexo”。</br>
+![hexo](https://blog-1256749229.cos.ap-chengdu.myqcloud.com/lanunion/hexo.png)
+[hexo](https://hexo.io)是一个基于nodejs的静态页面生成工具。由于其基于node的属性决定了它非常容易运行在许多操作系统上，包括主流的Windows、Mac OS、以及Linux。</br>
+这个工具最大的便利在于其丰富的使用和容易上手的配置文件，从部署到写作到远程部署，短短几分钟你就可以生成一个现代化、漂亮又整洁的博客。它预装了主题模版Landscape使得它在未经优化时就有着良好的表现。（接下来也会以hexo作为建站工具之一进行讲解）</br>
+#### HUGO
+为方便书写接下来写作Hugo。</br>
+![hugo](https://blog-1256749229.cos.ap-chengdu.myqcloud.com/lanunion/hugo.png)
+[hugo](https://gohugo.io)是一个基于go语言的工具。如果你对于尝试过后hexo抱怨满满，那不妨来试试这款工具。</br>
+不同于hexo，HUGO的体积非常之小而且文件也很单薄------全部文件只有HUGO这个程序本身（不包含站点文件）。
